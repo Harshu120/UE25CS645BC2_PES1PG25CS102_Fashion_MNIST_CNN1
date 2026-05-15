@@ -1,8 +1,8 @@
 # UE25CS645BC2_PES1PG25CS102_Fashion_MNIST_CNN1
 CNN
-Fashion MNIST CNN Implementation from Scratch
+Fashion MNIST CNN Implementation 
 **1.Introduction**
-This project implements a Convolutional Neural Network (CNN) from scratch using Python and NumPy. The aim of the assignment is to understand the internal working of CNNs by manually implementing different CNN layers such as Convolution, Pooling, Flattening, and Fully Connected layers along with forward propagation and backward propagation.
+This assignment implements a Convolutional Neural Network (CNN) from scratch using Python and NumPy. The aim of the assignment is to understand the internal working of CNNs by manually implementing different CNN layers such as Convolution, Pooling, Flattening, and Fully Connected layers along with forward propagation and backward propagation.
 **2. About Convolutional Neural Networks**
 Convolutional Neural Networks (CNNs) are deep learning models mainly used in computer vision tasks such as image classification, object detection, and pattern recognition. CNNs use convolution operations to extract important image features such as edges, shapes, and textures.
 •	Convolution Layer
@@ -23,7 +23,7 @@ The Fashion MNIST dataset contains 70,000 grayscale images of clothing and fashi
 
 **4. Code Description**
 Importing Libraries
-The project imports NumPy for numerical computations and TensorFlow/Keras for loading the Fashion MNIST dataset.
+The assignment imports NumPy for numerical computations and TensorFlow/Keras for loading the Fashion MNIST dataset.
 Loading the Dataset
 The Fashion MNIST dataset is loaded into training and testing sets using keras.datasets.fashion_mnist.
 Data Preprocessing
@@ -70,12 +70,12 @@ The CNN model is trained using forward propagation and backpropagation. Weights 
 •	Training neural networks manually
 •	Working with image datasets
 **8. Conclusion**
-This project successfully demonstrates the implementation of a Convolutional Neural Network (CNN) from scratch using Python and NumPy on the Fashion MNIST dataset. Through this project, the CNN model was able to learn important image features such as edges, textures, and shapes using convolution and pooling operations. The network was trained using forward propagation and backpropagation, and the model achieved successful classification of fashion images into different categories.
+This assignment successfully demonstrates the implementation of a Convolutional Neural Network (CNN) from scratch using Python and NumPy on the Fashion MNIST dataset. Through this assignment, the CNN model was able to learn important image features such as edges, textures, and shapes using convolution and pooling operations. The network was trained using forward propagation and backpropagation, and the model achieved successful classification of fashion images into different categories.
 
-The project provided practical understanding of how CNN architectures work internally without relying on high-level deep learning libraries. It also improved knowledge of convolution operations, feature extraction, gradient descent, and neural network training mechanisms.
+The assignment provided practical understanding of how CNN architectures work internally without relying on high-level deep learning libraries. It also improved knowledge of convolution operations, feature extraction, gradient descent, and neural network training mechanisms.
 The CNN model achieved an accuracy of approximately 81.2% on the Fashion MNIST test dataset after training.
 **9. Outcomes Achieved**
-Through the completion of this project, the following outcomes were achieved:
+Through the completion of this assignment, the following outcomes were achieved:
 Successfully implemented a CNN from scratch using Python and NumPy
 Understood the working of convolution, pooling, flattening, and fully connected layers
 Learned how forward propagation and backpropagation work in CNNs
